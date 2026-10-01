@@ -1,23 +1,29 @@
-# 🐍 Python OOP Projects
+# Python OOP Projects 🐍
 
-My journey of learning Object-Oriented Programming in Python - From basics to real-world mini projects.
+A collection of Object-Oriented Programming projects I built while learning Python at SLIIT.
 
-This is part of my learning at SLIIT - Faculty of Computing.
+This repo shows my progress in OOP concepts like Classes, Objects, Encapsulation, and Inheritance.
 
-### 📚 What I Learned
-- class, __init__, self - Core OOP concepts
-- Methods, Attributes, Encapsulation
-- Lists inside classes (self.tasks = [])
-- Real-world logic like if task in self.tasks and enumerate(start=1)
+## 📚 Projects Included
 
-### 📂 Projects in this Repo
+### 1. Bank Account System (`bank_account.py`)
+Simple banking system with deposit, withdraw, and balance check features.
+- Concepts: Class, __init__, methods
 
-| File | Concept | What it does |
-|------|---------|--------------|
-| bank_account.py | Encapsulation & History Tracking | A Bank Account system with deposit, withdraw, and transaction history. This logic is similar to tracking in my Research Project. |
-| todo_app.py | List Management & OOP | A complete To-Do App that can Add, Remove, and View tasks. This is the base for my Chili Research Task Manager (self.diseased_leaves = []). |
+### 2. To-Do App (`todo_app.py`)
+A to-do list manager to add and remove tasks.
+- Concepts: List handling, Class interaction
 
-### 🚀 How to Run
+### 3. Shopping Cart (`shopping_cart.py`)
+E-commerce cart system to add items and calculate total price.
+- Concepts: Objects inside lists, calculations
+
+### 4. Library Management System (`library_system.py`)
+Complete library system with Books, Members, and borrowing/returning logic.
+- Concepts: Multiple classes interacting (Book, Member, Library), Real-world logic
+- This is my most advanced project so far!
+
+## 🚀 How to Run
+Clone the repo and run any file:
 ```bash
-python bank_account.py
-python todo_app.py
+python library_system.py
